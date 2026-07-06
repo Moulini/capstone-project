@@ -238,23 +238,4 @@ the regularization experiment already suggested: on this dataset, these
 two regularization strengths perform statistically indistinguishably from
 one another.
 
----
 
-## Files in this project
-
-- `heart_disease_dataset.csv` — the original, raw dataset
-- `clean_heart_disease_data.py` — Tasks 1–4 (load, nulls, duplicates, dtypes)
-- `eda_heart_disease_data.py` — Tasks 5–8c (stats, outliers, visuals, correlation, grouping)
-- `modeling_heart_disease.py` — Part 3 (regression, classification, thresholds, bootstrap)
-- `heart_disease_dataset_cleaned.csv` — output of Part 1
-- `cleaned_data.csv` — output of Part 2, used as the input to Part 3
-- `plots/` — all chart images (6 from Part 2, plus the ROC curve from Part 3)
-- `README.md` — this file
-
-## How to run it
-
-```bash
-python clean_heart_disease_data.py
-python eda_heart_disease_data.py
-python modeling_heart_disease.py
-```
