@@ -9,7 +9,7 @@ who is new to pandas/data cleaning.
 
 ## The Dataset
 
-[Click here to download the Heart Disease Dataset](https://github.com/Moulini/capstone-project/blob/main/dataset/heart_disease_dataset.csv) dataset contains 670 patient records with 16 columns,
+[Click here to view the Heart Disease Dataset](https://github.com/Moulini/capstone-project/blob/main/dataset/heart_disease_dataset.csv) dataset contains 670 patient records with 16 columns,
 including age, blood pressure, cholesterol, glucose, exercise habits, and
 whether the patient has heart disease. It arrived "raw," meaning it has not
 been cleaned yet — it has missing values, duplicate rows, and at least one
