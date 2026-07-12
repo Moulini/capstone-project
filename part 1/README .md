@@ -1,11 +1,9 @@
-# Heart Disease Dataset — Cleaning Report
+Part 1 - data_cleaning_and_exploration_part_1.ipynb
 
 This project takes a raw, messy dataset (`heart_disease_dataset.csv`) and
 cleans it up using pandas. This README explains **what we did**, **why we did
 it**, and **what the results were**, step by step. It's written for someone
 who is new to pandas/data cleaning.
-
----
 
 ## The Dataset
 
@@ -388,15 +386,6 @@ column has 0 nulls except `DiagnosisYear`, which is intentionally left as
 84.9% missing per the reasoning in Task 2 / 9a above.
 
 
-## Files in this project
-
-- `heart_disease_dataset.csv` — the original, raw dataset
-- `cleaned_data.csv` — final output of Part 1
-- `plots/` — all 6 chart images from Task 7
-- `README.md` — this file
-
-
----
 
 
 

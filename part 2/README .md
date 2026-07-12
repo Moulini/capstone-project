@@ -1,6 +1,5 @@
 
-
-## Part 2 — Predictive Modeling (`Supervised machine learning.ipynb`)
+Part 2 — Predictive Modeling (`Supervised_machine_learning.ipynb`)
 
 This part builds a **regression model** (predicts a continuous number) and
 a **classification model** (predicts a Yes/No outcome) from "(Click here to view the cleaned Dataset)"https://github.com/Moulini/capstone-project/blob/main/dataset/cleaned_data.csv".

@@ -1,6 +1,6 @@
 
 
-## Part 3 Advanced — Ensembles, Tuning, and Full ML Pipeline (`advanced_modeling_heart_disease.py`)
+Part 3 Advanced — Ensembles, Tuning, and Full ML Pipeline (`advanced_modeling.ipynb`)
 
 This section builds on the classification problem above (predicting
 `HeartDisease`) with tree-based models, ensembles, systematic tuning, and
