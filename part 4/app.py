@@ -1,21 +1,11 @@
 """
-app.py - Heart Disease Risk Checker 
+app.py - Heart Disease Risk Checker (SIMPLE version)
 ========================================================
-ONE file. ONE dependency (Flask). No pandas, no scikit-learn, no
-joblib, no pickle file, no version-mismatch headaches.
-
-Instead of loading a saved model file, the trained model's numbers
-(coefficients) are just written directly into this file below, and we
-do the math by hand in plain Python. This is the exact same logistic
-regression model trained earlier -- just without needing any ML
-library installed to use it.
-
 HOW TO RUN THIS:
     pip install flask
     python app.py
 Then open http://127.0.0.1:5000 in your browser.
 
-That's the whole setup. Nothing else needed.
 """
 
 import math
@@ -85,8 +75,7 @@ PAGE = """
     label { display: block; font-weight: bold; margin-bottom: 4px; font-size: 14px; }
     input, select { width: 100%; padding: 8px; font-size: 14px; box-sizing: border-box; }
     .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-    .checkbox-row { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
-    .checkbox-row input[type=checkbox] { width: 16px; height: 16px; margin: 0; flex-shrink: 0; }
+    .checkbox-row { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
     .checkbox-row label { font-weight: normal; margin: 0; }
     button { background: #2c7a4b; color: white; border: none; padding: 12px 22px; font-size: 15px; border-radius: 4px; cursor: pointer; margin-top: 14px; }
     button:hover { background: #24623c; }
